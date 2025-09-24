@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Interactive Project</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Event Handling Basics</h2>
+    <button id="showMessageBtn">Click Me</button>
+    <p id="message"></p>
+    <input type="text" id="nameInput" placeholder="Type your name here">
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Interactive Elements</h2>
+
+    <!-- Light/Dark Mode -->
+    <button id="toggleTheme">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="count">0</span>
+      <button id="increase">+</button>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq">
+      <h3>FAQ Section</h3>
+      <button class="faq-toggle">What is this project?</button>
+      <p class="faq-answer">It’s a demo showing event handling, interactive elements, and form validation.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="formName"></label>
+      <span class="error" id="nameError"></span><br>
+
+      <label>Email: <input type="email" id="formEmail"></label>
+      <span class="error" id="emailError"></span><br>
+
+      <label>Password: <input type="password" id="formPassword"></label>
+      <span class="error" id="passwordError"></span><br>
+
+      <button type="submit">Submit</button>
+      <p id="formSuccess"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

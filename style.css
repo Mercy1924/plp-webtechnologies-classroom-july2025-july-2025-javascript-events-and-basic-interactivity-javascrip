@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+#formSuccess {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #333;
+  color: #f9f9f9;
+}
+.dark-mode section {
+  background: #444;
+  border-color: #666;
+}
